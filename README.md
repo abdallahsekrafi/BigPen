@@ -27,6 +27,13 @@ Ensuring the productivity of remote employees.
 Most schools have remained closed due to the # COVID19 pandemic for most of 2020, which has led to staying home (Especially during the confinement period) our kids want to do activities like reading, writing and as we know, children (ages 3 to 8) each of them wants their own tools (pens, pencils of different colors, notebooks, books, ...) which is impossible in most case and if someone steals one tool from another then this war.
 This app helps us well even for the non # COVID19 period.
 
+# Supported Languages:
+- English (default)
+- French 
+- Arabic 
+- Hindi 
+- Japan
+- Standard_Chinese
 # Welcome Screen :
 
 <img src="screenshot/0.png" width="300">    <img src="screenshot/1.png" width="300">
