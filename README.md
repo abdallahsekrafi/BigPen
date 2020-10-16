@@ -1,4 +1,4 @@
-# Google Africa Developer Scholarship 2020: GADS 2020
+# Google Africa Developer Scholarship: GADS 2020
 # Community Projects
 
 # OVERVIEW
@@ -52,6 +52,7 @@ https://drive.google.com/file/d/1oqEUNaDQXh-27k3q2NQBAWQrmBJSEMsJ/view?usp=shari
 - UI/UX 
 - Intent (Activity/Fragment) 
 - CustomView with TouchEvent 
+- Android sensor 
 - Custom Toast 
 - Custom ProgressDialog, AlertDialog 
 - BroadcastReceiver 
