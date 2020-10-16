@@ -28,7 +28,7 @@ Most schools have remained closed due to the # COVID19 pandemic for most of 2020
 This app helps us well even for the non # COVID19 period.
 
 # Supported Languages:
-- English (default)
+- English (default) <img src="https://en.wikipedia.org/wiki/United_States#/media/File:Flag_of_the_United_States.svg" width="30px">
 - French 
 - Arabic 
 - Hindi 
