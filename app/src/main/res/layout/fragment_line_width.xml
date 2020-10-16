@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <com.ramotion.fluidslider.FluidSlider
+        android:id="@+id/lineWidthSeekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/activity_vertical_margin"
+        android:layout_marginStart="@dimen/activity_vertical_margin"
+        android:layout_marginLeft="@dimen/activity_vertical_margin"
+        android:layout_marginRight="@dimen/activity_vertical_margin"
+        app:bar_color="@color/colorPrimaryDark"
+        app:bubble_color="@color/colorPrimary"
+        app:bar_text_color="@color/white"
+        app:start_text="1"
+        app:end_text="50"
+        app:size="small"
+        app:duration="@android:integer/config_mediumAnimTime" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/fab_button_normal_size"
+        android:layout_margin="@dimen/activity_vertical_margin"
+        android:id="@+id/lineWidthImageView"
+        android:layout_gravity="fill_horizontal" />
+</LinearLayout>

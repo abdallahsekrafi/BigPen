@@ -1,0 +1,80 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimaryDark</item>
+    </style>
+    <!-- launcher style theme. -->
+    <style name="AppTheme.Launcher">
+    <item name="android:windowBackground">@drawable/launch_screen</item>
+    </style>
+    <!-- custom Dialog style theme. -->
+    <style name="AppDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <!--item RadioButton or CheckBox color-->
+        <item name="colorControlNormal">@color/white</item>
+        <item name="colorControlActivated">@color/fab_color</item>
+        <!--button text color-->
+        <item name="colorAccent">@color/teal</item>
+        <!--item text color-->
+        <item name="textColorAlertDialogListItem">@color/text_color</item>
+        <item name="android:textAllCaps">false</item>
+        <!--title and message color-->
+        <item name="android:textColorPrimary">@color/white</item>
+        <!--dialog background-->
+        <item name="android:background">@color/colorPrimary</item>
+        <!--dialog animation-->
+        <item name="android:windowAnimationStyle">@style/DialogAnimationStyle</item>
+        <!--dialog font style-->
+        <item name="android:textAppearanceSmall">@style/TextFontStyle</item>
+        <item name="android:textAppearanceMedium">@style/TextFontStyle</item>
+        <item name="android:textAppearanceLarge">@style/TextFontStyle</item>
+        <item name="android:fontFamily">@font/big_pen_font</item>
+    </style>
+    <style name="TextFontStyle" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/big_pen_font</item>
+    </style>
+    <style name="DialogAnimationStyle">
+        <item name="android:windowEnterAnimation">@anim/slide_from_top</item>
+        <item name="android:windowExitAnimation">@anim/slide_to_top</item>
+    </style>
+    <style name="TextViewStyle" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/big_pen_font</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/toast_text_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="ButtonStyle" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/big_pen_font</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/button_text_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <!--ProgressDialogStyle-->
+    <style name="ProgressDialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTitleStyle">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+    <!--TextInputStyle-->
+    <style name="MyAppearance" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/big_pen_font</item>
+    </style>
+    <!--AppSearchView-->
+    <style name="AppSearchView" parent="Widget.AppCompat.SearchView" >
+        <!-- Query Text Color -->
+        <item name="android:textColorPrimary">@color/white</item>
+        <!-- Hint Color -->
+        <item name="android:textColorHint">@color/layout_price_color</item>
+        <item name="android:fontFamily">@font/big_pen_font</item>
+    </style>
+</resources>

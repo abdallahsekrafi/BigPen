@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ScrollView
+        android:id="@+id/scroll_view_color"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scrollbars="vertical"
+        android:scrollbarThumbVertical="@color/orange"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+    <com.ramotion.fluidslider.FluidSlider
+        android:id="@+id/redSeekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/activity_vertical_margin"
+        android:layout_marginStart="@dimen/activity_vertical_margin"
+        android:layout_marginLeft="@dimen/activity_vertical_margin"
+        android:layout_marginRight="@dimen/activity_vertical_margin"
+        app:bar_color="@color/red"
+        app:bubble_color="@color/colorPrimary"
+        app:bar_text_color="@color/white"
+        app:start_text="0"
+        app:end_text="255"
+        app:size="small"
+        app:duration="@android:integer/config_mediumAnimTime" />
+
+    <com.ramotion.fluidslider.FluidSlider
+        android:id="@+id/greenSeekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/activity_vertical_margin"
+        android:layout_marginStart="@dimen/activity_vertical_margin"
+        android:layout_marginLeft="@dimen/activity_vertical_margin"
+        android:layout_marginRight="@dimen/activity_vertical_margin"
+        app:bar_color="@color/green"
+        app:bubble_color="@color/colorPrimary"
+        app:bar_text_color="@color/white"
+        app:start_text="0"
+        app:end_text="255"
+        app:size="small"
+        app:duration="@android:integer/config_mediumAnimTime" />
+    <com.ramotion.fluidslider.FluidSlider
+        android:id="@+id/blueSeekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/activity_vertical_margin"
+        android:layout_marginStart="@dimen/activity_vertical_margin"
+        android:layout_marginLeft="@dimen/activity_vertical_margin"
+        android:layout_marginRight="@dimen/activity_vertical_margin"
+        app:bar_color="@color/blue"
+        app:bubble_color="@color/colorPrimary"
+        app:bar_text_color="@color/white"
+        app:start_text="0"
+        app:end_text="255"
+        app:size="small"
+        app:duration="@android:integer/config_mediumAnimTime" />
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardPreventCornerOverlap="false"
+            android:id="@+id/colorView"
+            app:cardCornerRadius="20dp"
+            android:layout_margin="10dp">
+            <ImageView
+                android:id="@+id/save_historic_pen"
+                android:layout_width="@dimen/fab_button_normal_size"
+                android:layout_height="@dimen/fab_button_normal_size"
+                app:srcCompat="@drawable/ic_fab_save"
+                android:scaleType="fitXY"
+                android:layout_gravity="end|right|top"/>
+        </androidx.cardview.widget.CardView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_list_historic_pen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#daae6a</color>
+    <color name="colorPrimaryDark">#a47c44</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="gray">#808080</color>
+    <color name="silver">#C0C0C0</color>
+    <color name="black">#000000</color>
+    <color name="maroon">#800000</color>
+    <color name="red">#FF0000</color>
+    <color name="purple">#800080</color>
+    <color name="fuchsia">#FF00FF</color>
+    <color name="green">#008000</color>
+    <color name="lime">#00FF00</color>
+    <color name="olive">#808000</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="navy">#000080</color>
+    <color name="blue">#0000FF</color>
+    <color name="teal">#008080</color>
+    <color name="aqua">#00FFFF</color>
+    <color name="orange">#FFA500</color>
+    <color name="fab_color">#FFFF4182</color>
+    <color name="text_color">#514c3b</color>
+    <color name="layout_price_color">#7000</color>
+    <array name="pen_color_list">
+        <item>@color/colorPrimary</item>
+        <item>@color/black</item>
+        <item>@color/gray</item>
+        <item>@color/silver</item>
+        <item>@color/white</item>
+        <item>@color/maroon</item>
+        <item>@color/red</item>
+        <item>@color/purple</item>
+        <item>@color/fuchsia</item>
+        <item>@color/green</item>
+        <item>@color/lime</item>
+        <item>@color/olive</item>
+        <item>@color/yellow</item>
+        <item>@color/navy</item>
+        <item>@color/blue</item>
+        <item>@color/teal</item>
+        <item>@color/aqua</item>
+        <item>@color/orange</item>
+    </array>
+
+</resources>

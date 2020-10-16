@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Big Pen</string>
+    <string name="app_ads_id" translatable="false">ca-app-pub-5860891026201091~7277125849</string>
+    <string name="app_video_ads_id" translatable="false">ca-app-pub-5860891026201091/5507874798</string>
+    <string name="app_interstitial_ads_id" translatable="false">ca-app-pub-5860891026201091/6741296929</string>
+    <string name="button_create_new_project">Create</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="ok_button">OK</string>
+    <string name="button_set_color">Set Color</string>
+    <string name="button_set_line_width">Set Line Width</string>
+    <string name="message_confirm_delete_page">Are you sure to delete ?</string>
+    <string name="loading_progress_dialog">Loading …</string>
+    <string name="uploading_progress_dialog">Uploading …</string>
+    <string name="deleting_progress_dialog">Deleting …</string>
+    <string name="message_empty_data">No books available !</string>
+    <string name="message_error_saving">There was an error saving the image</string>
+    <string name="message_uploading_page_success">Successful uploading</string>
+    <string name="message_uploading_page_now">You can uploading now</string>
+    <string name="message_delete_page_failed">Delete failed, try again !</string>
+    <string name="message_delete_page_success">Page deleted successfully</string>
+    <string name="message_password_login">Password must be up to 5 characters !</string>
+    <string name="message_user_name_login">User name must be up to 1 characters !</string>
+    <string name="message_email_login">Invalid email address !</string>
+    <string name="message_uploading_page_error">Uploading error</string>
+    <string name="message_uploading_storage_space">Insufficient storage space</string>
+    <string name="message_loading_books_error">Failed to load books !</string>
+    <string name="message_saved">Your image was saved successfully</string>
+    <string name="message_error_printing">Your device does not support printing</string>
+    <string name="message_close_app">You really want to close the app ?</string>
+    <string name="title_close_app">close app</string>
+    <string name="title_color_dialog">Choose color</string>
+    <string name="title_login_or_create_dialog">Sign in or create account</string>
+    <string name="title_new_project_dialog">New Project</string>
+    <string name="title_delete_image_dialog">Confirm delete</string>
+    <string name="title_line_width_dialog">Choose line width</string>
+    <string name="permission_explanation">To save an image, the app requires permission to write to external storage</string>
+    <string name="check_connexion">Check your connexion please</string>
+    <string name="email_login_hint">Email</string>
+    <string name="name_login_hint">User name</string>
+    <string name="password_login_hint">Password</string>
+    <string name="sign_in_login_button">Sign In</string>
+    <string name="create_new_account_login">Create new account ?</string>
+    <string name="reset_pwd_link">Reset password ?</string>
+    <string name="create_account_button">Create Account</string>
+    <string name="login_with_exist_account">Sign in with existing account !</string>
+    <string name="please_wait">please wait …</string>
+    <string name="system_error">System error please try again !</string>
+    <string name="login_failed">Sign in failed please try again !</string>
+    <string name="mode_read_write">Mode: read and write</string>
+    <string name="mode_read">Mode: read only</string>
+    <string name="success_account_create">Success account created, check your mailbox and sign in</string>
+    <string name="check_your_mailbox">Check your mailbox</string>
+    <string name="activate_your_account">Activate Your Account please !</string>
+    <string name="failed_account_create">Failed account created, please try again</string>
+    <string name="login_with_google_account">Use Google account</string>
+    <string name="login_with_facebook_account">Use Facebook account</string>
+    <string name="user_balance">Your balance</string>
+    <string name="play_video_get_balance">Watch the video and get $ %s in your balance</string>
+    <string name="message_empty_project">You don\'t have registered projects !</string>
+    <string name="message_empty_purchased_books">You didn\'t buy any books !</string>
+    <string name="message_empty_cart">Your cart is empty !</string>
+    <string name="successful_purchase">Your purchase was successful</string>
+    <string name="successful_added_to_cart">Book successfully added to cart</string>
+    <string name="insufficient_balance">Insufficient balance</string>
+    <string name="message_purchase_book_now">You can purchase now</string>
+    <string name="pay_with_bp_account">Pay with Big Pen balance</string>
+    <string name="pay_with_google_play_account">Pay with google play</string>
+    <string name="pay_with_paypal">Pay with PayPal</string>
+    <string name="congratulation_balance">Congratulation, rewarded balance</string>
+    <string name="search_book_name">Enter book name</string>
+    <string name="notification_text">We miss your skills !</string>
+    <string name="target_prompt_secondary_text">Welcome to Big Pen</string>
+    <string name="target_prompt_primary_text">Press the \"+\" button and discover</string>
+    <string name="target_storage_primary_text">Press the \"+\" button to increase your storage volume</string>
+    <string name="pay">Pay</string>
+    <string name="coming_soon">Coming soon</string>
+    <string name="about_description" translatable="false">-Activity -Fragment -ActivityLifecycle -FragmentLifecycle -Custom Style -Material Design -UI/UX -Intent (Activity/Fragment) -CustomView with TouchEvent -Custom Toast -Custom ProgressDialog, AlertDialog -BroadcastReceiver -AlarmManager -Custom Notification -Custom FontFamily -Custom Adapter -Recyclerview -CardView -CircleImageView -ClansFab -BoomMenu -FluidSlider -Room section -SharedPreferences -Glide -CarouselView - Firebase database -Firebase auth -Firebase storage -Google ads: RewardedVideoAd, InterstitialAd -In-App Purchases -And more...</string>
+    <string name="developer_name">Sekrafi Abdallah</string>
+    <string name="tun">Tunisia @2021</string>
+    <string name="title_storage_dialog">Storage capacity</string>
+    <string name="congratulation_storage">Successfully augmented storage</string>
+    <string name="total_price_str">Total price</string>
+</resources>

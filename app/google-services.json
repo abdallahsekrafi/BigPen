@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "43825267978",
+    "firebase_url": "https://bigpen-fb.firebaseio.com",
+    "project_id": "bigpen-fb",
+    "storage_bucket": "bigpen-fb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:43825267978:android:34e9356af251e0c4",
+        "android_client_info": {
+          "package_name": "com.zwir.bigpen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "43825267978-p7tj4acg9v1i19mrrpuckuv522kr1ha9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.zwir.bigpen",
+            "certificate_hash": "e3865446a064e2e1bafcbff74d257d8d653676a6"
+          }
+        },
+        {
+          "client_id": "43825267978-eg21pugcmk43c8gae93ta7o8405g9imd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzqdDJYnw-wYL0BpknpQfiYbn27boW3kE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "43825267978-eg21pugcmk43c8gae93ta7o8405g9imd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rectangular_corner_stroke_primary_dark"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+    <ProgressBar
+        android:layout_width="@dimen/fab_button_normal_size"
+        android:layout_height="@dimen/fab_button_normal_size"
+        android:padding="@dimen/min_view_padding"
+        android:indeterminateDrawable="@drawable/progress_animation"
+        />
+    <TextView
+        android:id="@+id/progress_msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/big_pen_font"
+        android:padding="@dimen/min_view_padding"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/button_text_size"
+        android:textStyle="normal"
+        android:gravity="center_horizontal" />
+
+</LinearLayout>

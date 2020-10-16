@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="toast_text_size">14sp</dimen>
+    <dimen name="button_text_size">16sp</dimen>
+    <dimen name="fab_button_normal_size">56dp</dimen>
+    <dimen name="repository_button_width">66dp</dimen>
+    <dimen name="min_view_padding">2dp</dimen>
+    <dimen name="standard_view_padding">5dp</dimen>
+    <dimen name="dialog_title_size">18sp</dimen>
+</resources>

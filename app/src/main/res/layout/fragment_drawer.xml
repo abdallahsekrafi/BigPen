@@ -1,0 +1,142 @@
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:id="@+id/sub_Layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view_list_pen"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fab_button_normal_size"
+            android:layout_gravity="center_vertical"
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal"/>
+
+        <com.zwir.bigpen.customs.SurfaceDraw xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/surfaceDraw"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></com.zwir.bigpen.customs.SurfaceDraw>
+    </LinearLayout>
+
+    <com.github.clans.fab.FloatingActionMenu
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_anchor="@id/sub_Layout"
+        app:layout_anchorGravity="top|left|start"
+        app:menu_buttonSpacing="3dp"
+        app:menu_colorNormal="@color/transparent"
+        app:menu_colorPressed="@color/colorPrimary"
+        app:menu_fab_size="normal"
+        app:menu_icon="@drawable/ic_fab_open_menu"
+        app:menu_labels_maxLines="-1"
+        app:menu_openDirection="down"
+        app:menu_showShadow="false">
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/floating_about"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_fab_about"
+            app:fab_colorNormal="@color/transparent"
+            app:fab_colorPressed="@color/colorPrimary"
+            app:fab_showShadow="false"
+            app:fab_size="normal" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/floating_print"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_fab_print"
+            app:fab_colorNormal="@color/transparent"
+            app:fab_colorPressed="@color/colorPrimary"
+            app:fab_showShadow="false"
+            app:fab_size="normal" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/floating_cloud_service"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_cloud_service"
+            app:fab_colorNormal="@color/transparent"
+            app:fab_colorPressed="@color/colorPrimary"
+            app:fab_showShadow="false"
+            app:fab_size="normal" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/floating_insert_local_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_fab_insert_local"
+            app:fab_colorNormal="@color/transparent"
+            app:fab_colorPressed="@color/colorPrimary"
+            app:fab_showShadow="false"
+            app:fab_size="normal" />
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/floating_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_fab_save"
+            app:fab_colorNormal="@color/transparent"
+            app:fab_colorPressed="@color/colorPrimary"
+            app:fab_showShadow="false"
+            app:fab_size="normal" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/floating_line_width"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_fab_line_width"
+            app:fab_colorNormal="@color/transparent"
+            app:fab_colorPressed="@color/colorPrimary"
+            app:fab_showShadow="false"
+            app:fab_size="normal" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/floating_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_fab_color_rgb"
+            app:fab_colorNormal="@color/transparent"
+            app:fab_colorPressed="@color/colorPrimary"
+            app:fab_showShadow="false"
+            app:fab_size="normal" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/floating_hand_mode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_fab_read_only"
+            app:fab_colorNormal="@color/transparent"
+            app:fab_colorPressed="@color/colorPrimary"
+            app:fab_showShadow="false"
+            app:fab_size="normal" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/floating_new_prj"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_fab_new_page"
+            app:fab_colorNormal="@color/transparent"
+            app:fab_colorPressed="@color/colorPrimary"
+            app:fab_showShadow="false"
+            app:fab_size="normal" />
+    </com.github.clans.fab.FloatingActionMenu>
+
+    <com.nightonke.boommenu.BoomMenuButton
+        android:id="@+id/bmb_cloud_service"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        app:bmb_buttonEnum="simpleCircle"
+        app:bmb_buttonPlaceEnum="buttonPlace_sc_2_1"
+        app:bmb_piecePlaceEnum="piecePlace_dot_2_1"
+        app:bmb_inFragment="true"
+        />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pen_color"
+    android:layout_width="@dimen/fab_button_normal_size"
+    android:layout_height="@dimen/fab_button_normal_size">
+
+        <ImageView
+            android:id="@+id/pen_image_view"
+            android:layout_width="@dimen/fab_button_normal_size"
+            android:layout_height="@dimen/fab_button_normal_size"
+            android:scaleType="fitXY"
+            android:layout_centerInParent="true"
+            />
+
+        <RadioButton
+            android:id="@+id/pen_radio_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@drawable/radio_button_style"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true" />
+
+</RelativeLayout>
