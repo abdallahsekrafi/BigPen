@@ -84,9 +84,6 @@ https://drive.google.com/file/d/1oqEUNaDQXh-27k3q2NQBAWQrmBJSEMsJ/view?usp=shari
 # Prerequisites:
 ![](https://img.shields.io/badge/min_SDK-16-informational?style=flat&logo=<LOGO_NAME>&logoColor=white&color=2bbc8a)
 
-# Technologies:
-![](https://img.shields.io/badge/Android_Studio-java_,XML-informational?style=flat&logo=<LOGO_NAME>&logoColor=white&color=2bbc8a)
-
 # Instructions:
 
 To use and test the source code you must:
