@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Big Pen</string>
-    <string name="app_ads_id" translatable="false">ca-app-pub-5860891026201091~7277125849</string>
-    <string name="app_video_ads_id" translatable="false">ca-app-pub-5860891026201091/5507874798</string>
-    <string name="app_interstitial_ads_id" translatable="false">ca-app-pub-5860891026201091/6741296929</string>
+    <string name="app_ads_id" translatable="false">Your_app_ads_id</string>
+    <string name="app_video_ads_id" translatable="false">Your_app_video_ads_id</string>
+    <string name="app_interstitial_ads_id" translatable="false">Your_app_interstitial_ads_id</string>
     <string name="button_create_new_project">Create</string>
     <string name="cancel_button">Cancel</string>
     <string name="ok_button">OK</string>
