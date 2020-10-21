@@ -84,8 +84,21 @@ https://drive.google.com/file/d/1oqEUNaDQXh-27k3q2NQBAWQrmBJSEMsJ/view?usp=shari
 # Prerequisites:
 ![](https://img.shields.io/badge/min_SDK-16-informational?style=flat&logo=<LOGO_NAME>&logoColor=white&color=2bbc8a)
 
-# Screenshot:
+# Technologies:
+![](https://img.shields.io/badge/Android_Studio-java_,XML-informational?style=flat&logo=<LOGO_NAME>&logoColor=white&color=2bbc8a)
 
+# Instructions:
+
+To use and test the source code you must:
+ - Enter your app id in the string file:
+     - Your_app_ads_id
+     - Your_app_video_ads_id
+     - Your_app_interstitial_ads_id
+     
+ - Donloawd your fire base file config: google-services.json   
+ 
+ # Screenshot:
+ 
 <img src="screenshot/0.png" width="300"> <img src="screenshot/1.png" width="300">
 <img src="screenshot/2.png" width="300"> <img src="screenshot/3.png" width="300">
 <img src="screenshot/5.png" width="300"> <img src="screenshot/6.png" width="300">
