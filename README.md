@@ -95,13 +95,9 @@ To use and test the source code you must:
  - Donloawd your fire base file config: google-services.json   
  
  # Screenshot:
-   - Welcome Screen:
+
 <img src="screenshot/0.png" width="300"> <img src="screenshot/1.png" width="300">
-
-   - Menus:
 <img src="screenshot/2.png" width="300"> <img src="screenshot/3.png" width="300">
-
-   - Tools:
 <img src="screenshot/4.png" width="300"> <img src="screenshot/5.png" width="300">
 <img src="screenshot/6.png" width="300"> <img src="screenshot/7.png" width="300">
 <img src="screenshot/8.png" width="300"> <img src="screenshot/9.png" width="300">
