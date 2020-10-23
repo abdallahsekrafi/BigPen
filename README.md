@@ -23,7 +23,7 @@ Ensuring the productivity of remote employees.
 
 - Individual Participation
 - Project Category :  EDUCATION
-# Project Name : Big Pen
+# Project Name : Big Pen  <img src="app/src/main/ic_launcher-web.png" width="50">
 Most schools have remained closed due to the # COVID19 pandemic for most of 2020, which has led to staying home (Especially during the confinement period) our kids want to do activities like reading, writing and as we know, children (ages 3 to 8) each of them wants their own tools (pens, pencils of different colors, notebooks, books, ...) which is impossible in most case and if someone steals one tool from another then this war.
 This app helps us well even for the non # COVID19 period.
 
