@@ -101,11 +101,33 @@ To use and test the source code you must:
 - Tools:
 
 <img src="screenshot/4.png" width="300"> <img src="screenshot/5.png" width="300">
-<img src="screenshot/6.png" width="300"> <img src="screenshot/7.png" width="300">
+<img src="screenshot/6.png" width="300">
 
-Cloud Tools (Books Stores):
+- Cloud Menus:
 
-<img src="screenshot/8.png" width="300"> <img src="screenshot/9.png" width="300">
-<img src="screenshot/10.png" width="300"> <img src="screenshot/11.png" width="300">
-<img src="screenshot/12.png" width="300"> <img src="screenshot/13.png" width="300">
-<img src="screenshot/14.png" width="300">
+<img src="screenshot/7.png" width="300">
+
+- Bookstores:
+
+<img src="screenshot/8.png" width="300"> <img src="screenshot/14.png" width="300">
+
+- Authentification:
+
+<img src="screenshot/9.png" width="300">
+
+- User account:
+
+<img src="screenshot/12.png" width="300">
+
+- User store:
+
+<img src="screenshot/10.png" width="300"> <img src="screenshot/13.png" width="300">
+
+- Purchase options:
+
+<img src="screenshot/11.png" width="300">
+
+- Project from bookstore:
+
+<img src="screenshot/15.png" width="300">
+
