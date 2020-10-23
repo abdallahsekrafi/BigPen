@@ -36,9 +36,9 @@ This app helps us well even for the non # COVID19 period.
 - Standard_Chinese
 # APK link:
 https://drive.google.com/file/d/1oqEUNaDQXh-27k3q2NQBAWQrmBJSEMsJ/view?usp=sharing
-```diff
-+ # This project will help you understand:
-```
+
+# This project will help you understand:
+
 - Activity 
 - Fragment 
 - ActivityLifecycle 
