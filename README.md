@@ -34,6 +34,10 @@ This app helps us well even for the non # COVID19 period.
 - Hindi 
 - Japan
 - Standard_Chinese
+
+# Video link:
+https://youtu.be/F04W_1HzzXc
+
 # APK link:
 https://drive.google.com/file/d/1oqEUNaDQXh-27k3q2NQBAWQrmBJSEMsJ/view?usp=sharing
 
